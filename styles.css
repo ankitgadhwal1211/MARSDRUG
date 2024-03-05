@@ -14,10 +14,23 @@ body, h1, h2, h3, p, ul, li {
 header {
     /* background-color: #1896fdf3; */
     background-image: url("images/medicine-capsules-global-health.jpg");
+    background-size: cover;
     color: #fff;
     /* padding: 20px 0; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
+}
+
+.banner {
+    background-image: url('images/pexels-shvets-production-9742906.jpg');
+    background-size: cover;
+    color: #000;
+    /* padding: 100px 0; */
+    text-align: center;
+}
+.banner:hover {
+    opacity: 0.9; /* Reduce opacity on hover */
+    transition: opacity 0.3s ease;
 }
 
 .pages{
@@ -58,40 +71,10 @@ header {
 
 }
 
-/* header h1 {
-    font-size: 24px;
-}
-
-header nav ul {
-    list-style: none;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-} */
-
-.banner {
-    background-image: url('images/pexels-shvets-production-9742906.jpg');
-    background-size: cover;
-    color: #000;
-    /* padding: 100px 0; */
-    text-align: center;
-}
-.banner:hover {
-    opacity: 0.9; /* Reduce opacity on hover */
-    transition: opacity 0.3s ease;
-}
-
 .products{
     img{
-        height: 200px;
-        width: auto;
+        height: auto;
+        max-width: 75% ;
         display: block;
         margin-left: auto;
         margin-right: auto;
