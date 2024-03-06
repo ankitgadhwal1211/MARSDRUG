@@ -28,14 +28,12 @@ header {
     /* padding: 100px 0; */
     text-align: center;
 }
-.banner:hover {
-    opacity: 0.9; /* Reduce opacity on hover */
-    transition: opacity 0.3s ease;
-}
+
 .contact{
     background-image: url('images/pexels-shvets-production-9742906.jpg');
     background-size: cover;
     color: #000;
+    padding-top: 2%;
     /* padding: 100px 0; */
     text-align: center;
 }
@@ -136,17 +134,7 @@ header {
     margin-bottom: 20px;
 }
 
-.services {
-    padding: 50px 0;
-}
 
-.service {
-    margin-bottom: 20px;
-}
-
-.service h3 {
-    font-size: 24px;
-}
 
 .copyright{
     background-color: #333;
@@ -158,11 +146,7 @@ header {
 footer{
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding-left: 2%;
     text-align: left;
 }
    
-footer :hover {
-    color: #a4e694f3;
-}
-
