@@ -7,17 +7,35 @@ body, h1, h2, h3, p, ul, li {
 .container {
     width: 100%;
     margin: 0 auto;
-    /* max-width: 1200px; */
+    max-width: 100%;
 }
 
 
 header {
     /* background-color: #1896fdf3; */
     background-image: url("images/medicine-capsules-global-health.jpg");
+    background-size: cover;
     color: #fff;
     /* padding: 20px 0; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
+}
+
+.banner {
+    background-image: url('images/pexels-shvets-production-9742906.jpg');
+    background-size: cover;
+    color: #000;
+    /* padding: 100px 0; */
+    text-align: center;
+}
+
+.contact{
+    background-image: url('images/pexels-shvets-production-9742906.jpg');
+    background-size: cover;
+    color: #000;
+    padding-top: 2%;
+    /* padding: 100px 0; */
+    text-align: center;
 }
 
 .pages{
@@ -33,7 +51,7 @@ header {
 
      nav ul li {
         display: inline;
-        margin-left: 20px;
+        margin-left: 1%;
         
     }
 
@@ -58,40 +76,24 @@ header {
 
 }
 
-/* header h1 {
-    font-size: 24px;
-}
-
-header nav ul {
-    list-style: none;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-} */
-
-.banner {
-    background-image: url('images/pexels-shvets-production-9742906.jpg');
-    background-size: cover;
-    color: #000;
-    /* padding: 100px 0; */
-    text-align: center;
-}
-.banner:hover {
-    opacity: 0.9; /* Reduce opacity on hover */
-    transition: opacity 0.3s ease;
-}
-
 .products{
+    
+    h3{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    p{
+        text-align: center;
+        font-size: 16px;
+        color: #666;
+    }
+}  
+
+.product1{
     img{
-        height: 200px;
-        width: auto;
+        height: auto;
+        max-width: 75%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -106,33 +108,33 @@ header nav ul li a {
         border-color: #1896fdf3;
         transition: all .3s ease-in-out;
     }
-    h3{
-        text-align: center;
-        font-size: 18px;
-        margin-top: 10px;
+}
+
+.product2{
+    img{
+        height: auto;
+        max-width: 45%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
     }
-    p{
-        text-align: center;
-        font-size: 16px;
-        color: #666;
+    img:hover{
+        /* increases the size by 10% */
+        transform:scale(1.05);
+        border-color: #1896fdf3;
+        transition: all .3s ease-in-out;
     }
-}    
+}
 .banner h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.services {
-    padding: 50px 0;
-}
 
-.service {
-    margin-bottom: 20px;
-}
-
-.service h3 {
-    font-size: 24px;
-}
 
 .copyright{
     background-color: #333;
@@ -144,11 +146,7 @@ header nav ul li a {
 footer{
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding-left: 2%;
     text-align: left;
 }
    
-footer :hover {
-    color: #a4e694f3;
-}
-
